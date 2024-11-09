@@ -1,0 +1,89 @@
+.main-section {
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #d6ecff;
+    height: 8vh;
+}
+
+.score-board-section {
+    height: 60vh;
+}
+
+/* .leftside-scoreboard {
+    background-image: url('../../assets/backgroundImage.jpg');
+    opacity: 0.8;
+    filter: grayscale(100%);
+} */
+
+.over-and-target {
+    font-weight: 500;
+    color: gray;
+}
+
+.batsman-name {
+    font-weight: 500;
+}
+
+.over-balls {
+    height: 50px;
+    min-width: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.current-over {
+    padding: 10px 0;
+    background-color: #d4d4d4;
+    min-height: 130px;
+    overflow-x: auto;
+}
+
+.current-over::-webkit-scrollbar {
+	width: 0px;
+}
+
+.score-buttons {
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+
+.score-buttons:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+.over-timeline {
+    height: 32vh;
+}
+
+
+.over-timeline {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    height: 28vh;
+}
+  
+.team-overs {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.team-overs::-webkit-scrollbar {
+	width: 1px;
+	background-color: #F5F5F5;
+}
+
+.over {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f7f7;
+}
+
+  
